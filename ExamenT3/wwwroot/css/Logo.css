@@ -1,0 +1,9 @@
+﻿
+/*
+FONFO */
+body {
+    background-image: url(../img/of.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}

@@ -1,0 +1,251 @@
+﻿﻿ /*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.button-green {
+    background-color: #fe4918;
+    padding: 10px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #32cd32;
+}
+
+    .button-green.hollow,
+    .button.hollow:hover {
+        background-color: white;
+        color: #32cd32;
+    }
+
+    .button-green.transparente {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+    }
+
+        .button-green.transparente:hover {
+            border: 2px solid #32cd32;
+        }
+
+
+.button {
+    background-color: #fe4918;
+    padding: 10px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #fe4918;
+}
+
+    .button.hollow,
+    .button.hollow:hover {
+        background-color: white;
+        color: #fe4918;
+    }
+
+    .button.transparente {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+    }
+
+        .button.transparente:hover {
+            border: 2px solid #fe4918;
+        }
+/* BUTTON BUSCAR*/
+button.Victor {
+    width: 10%;
+    padding: 10px 10px;
+}
+
+/* DETALLE /*/
+.invitado-info p {
+    text-align: left;
+}
+
+.invitado-info img {
+    vertical-align: middle;
+}
+
+.imgRedonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+    .alert-danger hr {
+        border-top-color: #f1b0b7;
+    }
+
+    .alert-danger .alert-link {
+        color: #491217;
+    }
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+/*# sourceMappingURL=bootstrap.css.map */
+
+.imgFuturas {
+    padding-left: 65px;
+}
+
+.bntFut {
+    padding-left: 65px;
+    padding-bottom: 10px;
+}
+
+.card {
+    width: 600px;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px #fd7e14;
+    overflow: hidden;
+    transition: all 0.25s;
+    border-color: aqua;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.texto-aprendiz {
+    margin-left: 20px;
+}
+
+.contenedor-ponente {
+    margin-left: 100px;
+    margin-right: 200px;
+    width: 600px;
+    height: auto;
+    text-align: justify;
+}
+
+.contenedor-imagen {
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+}
+
+.button-Caj {
+    padding: 10px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    background-color: #555555;
+}
+
+.button-Cuenta {
+    padding: 10px 40px;
+    color: #555555;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    background-color: #ffffff;
+}
+
+.modal-cuenta {
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.modal-cuenta:hover img {
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.2);
+}
+
+/*DETALLE*/
+.contenedor {
+    width: 98%;
+    margin: 0 auto;
+}
+
+div.contenido-programa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div.programa-evento {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 15px;
+    margin-top: 80px;
+}
+
