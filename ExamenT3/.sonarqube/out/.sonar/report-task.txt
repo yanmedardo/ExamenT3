@@ -1,0 +1,6 @@
+projectKey=N00028416T3
+serverUrl=https://sonar.lumenes.tk
+serverVersion=9.1.0.47736
+dashboardUrl=https://sonar.lumenes.tk/dashboard?id=N00028416T3
+ceTaskId=AXzzpK5n_RlfXo1oIxU4
+ceTaskUrl=https://sonar.lumenes.tk/api/ce/task?id=AXzzpK5n_RlfXo1oIxU4
