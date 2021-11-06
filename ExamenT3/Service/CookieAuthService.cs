@@ -1,10 +1,10 @@
-﻿using ExamenFinal.Models;
+﻿using ExamenT3.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 using System.Security.Claims;
 
-namespace ExamenFinal.Service
+namespace ExamenT3.Service
 {
 
     public interface ICookieAuthService

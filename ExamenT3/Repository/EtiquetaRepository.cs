@@ -1,10 +1,10 @@
-﻿using ExamenFinal.Models;
+﻿using ExamenT3.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExamenFinal.Repository
+namespace ExamenT3.Repository
 {
     public interface IEtiquetaRepository
     {

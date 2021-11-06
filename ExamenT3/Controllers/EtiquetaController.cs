@@ -1,12 +1,12 @@
-﻿using ExamenFinal.Models;
-using ExamenFinal.Repository;
+﻿using ExamenT3.Models;
+using ExamenT3.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExamenFinal.Controllers
+namespace ExamenT3.Controllers
 {
     public class EtiquetaController : Controller
     {

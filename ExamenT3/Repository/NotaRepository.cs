@@ -1,12 +1,12 @@
-﻿using ExamenFinal.Models;
-using ExamenFinal.Service;
+﻿using ExamenT3.Models;
+using ExamenT3.Service;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExamenFinal.Repository
+namespace ExamenT3.Repository
 {
     public interface INotaRepository
     {

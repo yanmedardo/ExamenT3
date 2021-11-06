@@ -1,6 +1,6 @@
-﻿using ExamenFinal.Models;
-using ExamenFinal.Repository;
-using ExamenFinal.Service;
+﻿using ExamenT3.Models;
+using ExamenT3.Repository;
+using ExamenT3.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExamenFinal.Controllers
+namespace ExamenT3.Controllers
 {
     [Authorize]
     public class NotaController : Controller

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExamenFinal.Models
+namespace ExamenT3.Models
 {
     public class UsuarioNota
     {
