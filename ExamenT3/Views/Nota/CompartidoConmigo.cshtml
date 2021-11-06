@@ -1,0 +1,20 @@
+﻿<h1>Compartido conmigo</h1>
+
+<div class="row">
+    <div class="col-12 mt-3">
+        <ul class="list-group">
+            @foreach (var nota in Model)
+            {
+                <li class="list-group-item">
+                    <div class="w-100">
+                        <span>@nota.Titulo</span>
+                    </div>
+                    <p>@nota.Contenido</p>
+                    <div class="w-100 text-right">
+                        <a class="btn btn-info mr-2" href="/nota/detalle/@nota.Id">Detalle</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

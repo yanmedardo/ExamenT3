@@ -1,0 +1,18 @@
+﻿<h1>Commpartir: @Model.Titulo </h1>
+
+<div class="row">
+    <div class="col-6">
+        <form action="/nota/compartir/@Model.Id " method="post">
+            <div class="form-group">
+                <label>Usuarios</label>
+                <select class="form-control" multiple name="Usuarios">
+                    @foreach (var usuario in ViewBag.Usuarios)
+                    {
+                        <option value="@usuario.Id">@usuario.Username</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>

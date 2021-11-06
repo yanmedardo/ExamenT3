@@ -1,0 +1,50 @@
+﻿<div class="row">
+    <div class="col-12">
+        @if (ViewBag.Buscar != "" || ViewBag.Etiqueta > 0)
+        {
+            <a href="/nota" class="btn btn-success mb-3">Listar todo</a>
+        }
+
+        <form action="/nota" method="get">
+            <div class="form-group">
+                <label>Buscar</label>
+                <input type="text" name="buscar" class="form-control" value="@ViewBag.Buscar" />
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+    </div>
+    <div class="col-4 mt-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-title">
+                    <h3>Etiquetas</h3>
+                </div>
+                <div class="list-group">
+                    @foreach (var etiqueta in ViewBag.Etiquetas)
+                    {
+                        <a href="/nota/index?etiqueta=@etiqueta.Id" class="list-group-item list-group-item-action">@etiqueta.Nombre</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-8 mt-3">
+        <ul class="list-group">
+            @foreach (var nota in Model)
+            {
+                <li class="list-group-item">
+                    <div class="w-100">
+                        <span>@nota.Titulo</span>
+                    </div>
+                    <p>@nota.Contenido</p>
+                    <div class="w-100 text-right">
+                        <a class="btn btn-success mr-2" href="/nota/compartir/@nota.Id">Compartir</a>
+                        <a class="btn btn-info mr-2" href="/nota/detalle/@nota.Id">Detalle</a>
+                        <a class="btn btn-warning mr-2" href="/nota/editar/@nota.Id">Editar</a>
+                        <a class="btn btn-danger" href="/nota/eliminar/@nota.Id">Eliminar</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
