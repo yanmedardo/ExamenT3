@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CalidadT2Tests.Controllers
+namespace CalidadT3Tests.Controllers
 {
     public class AuthController : Controller
     {

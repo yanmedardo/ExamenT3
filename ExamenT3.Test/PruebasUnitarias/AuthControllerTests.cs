@@ -1,7 +1,7 @@
-﻿using ExamenFinal.Models;
-using ExamenFinal.Repository;
-using ExamenFinal.Service;
-using CalidadT2Tests.Controllers;
+﻿using ExamenT3.Models;
+using ExamenT3.Repository;
+using ExamenT3.Service;
+using CalidadT3Tests.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using NUnit.Framework;
@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CalidadT2Tests.Unitarias
+namespace CalidadT3Tests.Unitarias
 {
     class AuthControllerTests
     {
