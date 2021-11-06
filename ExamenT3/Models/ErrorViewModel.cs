@@ -1,6 +1,6 @@
 using System;
 
-namespace ExamenT3.Models
+namespace ExamenFinal.Models
 {
     public class ErrorViewModel
     {
