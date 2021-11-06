@@ -2,7 +2,7 @@
   "id": "be457c85-9858-4f36-95f8-507c822949ae",
   "version": "2.0",
   "name": "ExamenT3_Selenium",
-  "url": "https://localhost:44385/Auth/Login",
+  "url": "https://localhost:44385/",
   "tests": [{
     "id": "ec64e027-8e17-4c44-b43a-1f26350ba029",
     "name": "Login",
@@ -134,6 +134,278 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "164aa921-fff3-4707-9e2e-0a12834d11ed",
+    "name": "FailLogin",
+    "commands": [{
+      "id": "7621aa3f-3df0-488f-b268-95d4c8a020c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44385/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17c91409-58a2-4f8e-a63b-9811613458ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=#user-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//div[@id='user-group']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be855cab-349a-4b17-a931-4d0ab9df7481",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=#user-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//div[@id='user-group']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "yan"
+    }, {
+      "id": "ae58623b-5601-4491-93be-8bff6e895452",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=#contrasena-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[@id='contrasena-group']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e455f6-698d-4bd6-be2e-72a0873bd156",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=#contrasena-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[@id='contrasena-group']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "f7af26e9-3a29-4bb5-939d-ddc736d4190a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6be8b6b0-7691-401f-b6f5-dea1e221ad70",
+    "name": "RegistrarNota",
+    "commands": [{
+      "id": "794ec5e8-bdd4-45f5-afe0-61cf4f8ab59f",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44385/Auth/Login?ReturnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11e46c63-7be8-4cac-86cc-7effa4faa0d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1349x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47a69c3d-ee6b-4370-a18b-7a3a8259e7ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=#user-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//div[@id='user-group']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4042ca76-d565-4ddf-a8ef-a3190728497b",
+      "comment": "",
+      "command": "type",
+      "target": "name=Username",
+      "targets": [
+        ["name=Username", "name"],
+        ["css=#user-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Username']", "xpath:attributes"],
+        ["xpath=//div[@id='user-group']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "yan"
+    }, {
+      "id": "5d1a351d-4a42-41c0-9ac7-0dd68d0a4aff",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=#contrasena-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[@id='contrasena-group']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d22dcd1a-81d7-4511-9d04-af14829992ff",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=#contrasena-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[@id='contrasena-group']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "f857cc31-6a90-4689-a30c-ecdc79a3a9d8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=#contrasena-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[@id='contrasena-group']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "833f27ef-e1c6-4fdc-9abd-72b6cd083324",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrar nota",
+      "targets": [
+        ["linkText=Registrar nota", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrar nota')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Nota/Registrar')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrar nota')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce593627-adc3-4ba7-8645-abf8d06ab59d",
+      "comment": "",
+      "command": "click",
+      "target": "name=Titulo",
+      "targets": [
+        ["name=Titulo", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "820e22d2-f410-4f10-9260-ccf4d61c9b37",
+      "comment": "",
+      "command": "type",
+      "target": "name=Titulo",
+      "targets": [
+        ["name=Titulo", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='Titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "JMeter"
+    }, {
+      "id": "baa9c14e-cfad-414f-826d-050613a1cb56",
+      "comment": "",
+      "command": "click",
+      "target": "name=Contenido",
+      "targets": [
+        ["name=Contenido", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='Contenido']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0734d1a-2b8c-4485-be93-4a99c87864f1",
+      "comment": "",
+      "command": "type",
+      "target": "name=Contenido",
+      "targets": [
+        ["name=Contenido", "name"],
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=//textarea[@name='Contenido']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de prueba de carga para analizar y medir"
+    }, {
+      "id": "574aebaf-0ee3-45e8-a9ff-3cc13835a4d9",
+      "comment": "",
+      "command": "addSelection",
+      "target": "name=Etiquetas",
+      "targets": [
+        ["name=Etiquetas", "name"],
+        ["css=.form-select", "css:finder"],
+        ["xpath=//select[@name='Etiquetas']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=calidad"
+    }, {
+      "id": "730935fb-e925-4124-88c2-e16153648f4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "459040a0-95ab-436c-a722-24d969ce0ee9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LProgamacion",
+      "targets": [
+        ["linkText=LProgamacion", "linkText"],
+        ["css=.list-group-item-action:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'LProgamacion')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/nota/index?etiqueta=2')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'LProgamacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6267ec94-7877-4a3d-baec-2b3949a02d17",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=calidad",
+      "targets": [
+        ["linkText=calidad", "linkText"],
+        ["css=.list-group-item-action:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'calidad')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/nota/index?etiqueta=3')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'calidad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b1313ebd-1de2-44ea-8419-3c4341cdb2b0",
@@ -143,6 +415,6 @@
     "timeout": 300,
     "tests": ["ec64e027-8e17-4c44-b43a-1f26350ba029"]
   }],
-  "urls": ["https://localhost:44385/Auth/Login"],
+  "urls": ["https://localhost:44385/Auth/Login", "https://localhost:44385/"],
   "plugins": []
 }
